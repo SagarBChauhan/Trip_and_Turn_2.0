@@ -1,0 +1,134 @@
+
+/*        .main-raised {
+            margin: -60px 30px 0px;
+            border-radius: 6px;
+            box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+            box-shadow: inset 0px 0px 12px 4px black;
+        }*/
+        .font-family-Aclonica{
+            font-family: 'Aclonica';font-size: 22px;
+        }
+        .font-family-Aclonica-title{
+            font-family: 'Aclonica';font-size: 50px;
+        }
+        .font-family-Alex{
+           font-family: 'Alex Brush';font-size: 22px;
+        }
+        .font-family-Alex-title{
+           font-family: 'Alex Brush';font-size: 50px;
+        }
+        .font-family-Cambay{
+           font-family: 'Cambay';font-size: 22px;
+        }
+        .font-family-Cambay-title{
+           font-family: 'Cambay';font-size: 50px;
+        }
+        .font-family-Cinzel{
+            font-family: 'Cinzel Decorative';font-size: 22px;
+        }
+        .font-family-Cinzel-title{
+            font-family: 'Cinzel Decorative';font-size: 50px;
+        }
+
+        .bg-fb{
+            background-color: #3b5998;
+        }
+        .bg-fb:hover{
+            background-color: #2f4674;
+        }
+        .bg-insta{
+            background: linear-gradient(23deg, rgba(253,206,88,1) 0%, rgba(255,84,41,1) 40%, rgba(189,43,188,1) 80%, rgba(2,67,223,1) 100%);
+        }
+        .bg-insta:hover{
+            background: linear-gradient(383deg, rgba(253,206,88,1) 0%, rgba(255,84,41,1) 0%, rgba(189,43,188,1) 80%, rgba(2,67,223,1) 100%);
+        }             
+        .notification{
+          position: absolute;
+          top: 5px;
+          border: 1px solid #FFF;
+          right: 10px;
+          font-size: 10px;
+          font-weight: bold;
+          background: #f44336;
+          color: #FFFFFF;
+          min-width: 20px;
+          padding: 0px 5px;
+          height: 20px;
+          border-radius: 10px;
+          text-align: center;
+          line-height: 19px;
+          vertical-align: middle;
+          display: block;
+        }
+        .notification-error {
+            position: absolute;
+            top: 40px;
+            border: 1px solid #8f666600;
+            right: 60px;
+            font-size: 10px;
+            font-weight: bold;
+            background: #f44336;
+            color: #FFFFFF;
+            min-width: 20px;
+            padding: 0px 7px;
+            height: 20px;
+            border-radius: 10px;
+            text-align: center;
+            line-height: 19px;
+            vertical-align: middle;
+            display: block;
+                box-shadow: inset 1px 1px 1px black;
+        }
+        
+        
+        /* Center the loader */
+        #loader {
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          z-index: 1;
+          width: 150px;
+          height: 150px;
+          margin: -75px 0 0 -75px;
+          border: 16px solid #f3f3f3;
+          border-radius: 50%;
+          border-top: 16px solid #3498db;
+          width: 120px;
+          height: 120px;
+          -webkit-animation: spin 2s linear infinite;
+          animation: spin 2s linear infinite;
+        }
+
+        @-webkit-keyframes spin {
+          0% { -webkit-transform: rotate(0deg); }
+          100% { -webkit-transform: rotate(360deg); }
+        }
+
+        @keyframes spin {
+          0% { transform: rotate(0deg); }
+          100% { transform: rotate(360deg); }
+        }
+
+        /* Add animation to "page content" */
+        .animate-bottom {
+          position: relative;
+          -webkit-animation-name: animatebottom;
+          -webkit-animation-duration: 1s;
+          animation-name: animatebottom;
+          animation-duration: 1s
+        }
+
+        @-webkit-keyframes animatebottom {
+          from { bottom:-100px; opacity:0 } 
+          to { bottom:0px; opacity:1 }
+        }
+
+        @keyframes animatebottom { 
+          from{ bottom:-100px; opacity:0 } 
+          to{ bottom:0; opacity:1 }
+        }
+
+        #myDiv {
+          display: none;
+          text-align: center;
+        }
